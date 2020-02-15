@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
   html {
+    background-color: hsla(0, 0%, 0%, 0.8);
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -61,6 +62,7 @@ export const Global = createGlobalStyle`
     h1 {
       font-size: 2em;
       margin: 0.67em 0;
+      color: white;
     }
     mark {
       background-color: #ff0;
@@ -216,7 +218,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 2.25rem;
@@ -231,7 +233,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1.62671rem;
@@ -246,7 +248,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1.38316rem;
@@ -261,7 +263,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1rem;
@@ -276,7 +278,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 0.85028rem;
@@ -291,7 +293,7 @@ export const Global = createGlobalStyle`
       padding-right: 0;
       padding-top: 0;
       margin-bottom: 1.45rem;
-      color: inherit;
+      color: white;
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 0.78405rem;

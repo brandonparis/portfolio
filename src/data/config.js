@@ -10,8 +10,8 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/brandonprs',
   },
   googleAnalyticsID: 'UA-88875900-4',
-  themeColor: '#6b63ff',
-  backgroundColor: '#6b63ff',
+  themeColor: '#8db986',
+  backgroundColor: '#8db986',
   social: {
     twitter: '@brandonjparis',
   },

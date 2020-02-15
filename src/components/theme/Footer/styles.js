@@ -30,9 +30,13 @@ export const Links = styled.div`
 
   a {
     margin: 0 0.5rem;
+    fill: #8db986;
 
     img {
       margin: 0;
+      > svg {
+        color: white;
+      }
     }
 
     &:first-child,
@@ -43,6 +47,7 @@ export const Links = styled.div`
 `;
 
 export const Details = styled.div`
+  color: white;
   @media (max-width: 680px) {
     margin-bottom: 2rem;
   }
