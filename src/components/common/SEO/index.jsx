@@ -35,12 +35,10 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 		"sameAs": [
 			"${socialLinks.twitter}",
 			"${socialLinks.google}",
-			"${socialLinks.youtube}",
 			"${socialLinks.linkedin}",
-			"${socialLinks.instagram}",
 			"${socialLinks.github}"
 		]
-  	}`;
+  }`;
 
   return (
     <Helmet>
