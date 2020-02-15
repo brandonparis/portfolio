@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const config = require('./src/data/config');
 
 require('dotenv').config({
@@ -73,4 +74,12 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
+=======
+
+module.exports = {
+  siteMetadata: {
+    title: `Gatsby Netlify Form Integration`
+  },
+  plugins: [`gatsby-plugin-react-helmet`]
+>>>>>>> fc08d5af1fa4d30de4e09cf93bce673c64ca053d
 };

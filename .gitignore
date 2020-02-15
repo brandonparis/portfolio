@@ -26,6 +26,9 @@ coverage
 # Bower dependency directory (https://bower.io/)
 bower_components
 
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
 # node-waf configuration
 .lock-wscript
 
@@ -74,3 +77,14 @@ yarn.lock
 now.json
 
 .vscode/
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+.gatsby-context.js
+.sass-cache/
+public/
+.cache/
+.DS_Store
+
+# Environment variables
+.env.development
