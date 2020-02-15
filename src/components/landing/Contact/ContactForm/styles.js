@@ -15,4 +15,8 @@ export const Center = styled.div`
 export const InputField = styled.div`
   position: relative;
   margin-bottom: 1rem;
+
+  > input, textarea {
+    border-color: hsl(112, 27%, 63%);
+  }
 `;

@@ -6,8 +6,8 @@ module.exports = {
   defaultDescription: "Hi there, I'm Brandon, Front End Developer",
   socialLinks: {
     twitter: 'https://www.twitter.com/brandonjparis',
-    github: 'https://github.com/brandonprs',
-    linkedin: 'https://www.linkedin.com/in/brandonprs',
+    github: 'https://github.com/brandonparis',
+    linkedin: 'https://www.linkedin.com/in/brandonparis',
   },
   googleAnalyticsID: 'UA-88875900-4',
   themeColor: '#8db986',
