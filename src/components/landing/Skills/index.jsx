@@ -9,11 +9,11 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={tazu} alt="I’m Brandon and I’m a Front end engineer!" />
+        <img src={tazu} alt="I’m Brandon and I’m a Full Stack Engineer!" />
       </Thumbnail>
       <Details>
         <p>
-          I am a self-taught, 26 year-old software developer, specializing in JavaScript and
+          I am a self-taught, 26 year-old software engineer, specializing in JavaScript and
           user interfaces. My hobbies mostly include climbing and hanging out with my 4 year-old 
           Australian shepherd Tazu, and I've been known to enjoy a card game or two.
         </p>

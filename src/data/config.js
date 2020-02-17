@@ -3,7 +3,7 @@ module.exports = {
   author: 'Brandon Paris',
   url: 'http://localhost:8000',
   legalName: 'Brandon Paris',
-  defaultDescription: "Hi there, I'm Brandon, Front End Developer",
+  defaultDescription: "Hi there, I'm Brandon, Full Stack Engineerr",
   socialLinks: {
     twitter: 'https://www.twitter.com/brandonjparis',
     github: 'https://github.com/brandonparis',
