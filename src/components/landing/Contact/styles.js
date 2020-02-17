@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import taos from '../../../assets/icons/taos.jpg';
 
 export const Wrapper = styled.div`
   padding: 4rem 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin-right: 0;
 
   @media (max-width: 960px) {
     flex-direction: column;

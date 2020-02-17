@@ -13,7 +13,7 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background-color: #8db986;
+  background-color: hsl(112, 27%, 63%);
 
   &:focus {
     outline: none;
@@ -26,6 +26,6 @@ export const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     `
-		background: #001F3F;
+		background: hsl(112, 27%, 63%);
 	`}
 `;
