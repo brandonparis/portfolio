@@ -13,7 +13,9 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
     data-netlify="true"
     data-netlify-recaptcha="true"
     data-netlify-honeypot="bot-field"
+    action="/success"
   >
+    <input type="hidden" name="form-name" value="portfolio" />
     <InputField>
       <Input
         as={FastField}
