@@ -1,3 +1,4 @@
+
 const config = require('./src/data/config');
 
 require('dotenv').config({
@@ -73,4 +74,4 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-};
+}

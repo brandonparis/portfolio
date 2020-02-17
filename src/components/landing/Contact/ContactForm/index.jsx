@@ -10,7 +10,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
   <Form
     name="portfolio-dev"
     method="post"
-    data-netlify="true"
+    data-netlify="true"s
     data-netlify-recaptcha="true"
     data-netlify-honeypot="bot-field"
   >
@@ -87,11 +87,12 @@ export default withFormik({
     }),
   handleSubmit: async ({ name, email, message, recaptcha }, { setSubmitting, resetForm, setFieldValue }) => {
     try {
+      console.log('sending');
       const encode = data =>
         Object.keys(data)
           .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
           .join('&');
-      await fetch('/?no-cache=1', {
+      await fetch('https://getform.io/f/b2eaef47-2f29-44d4-95db-813905fab04f', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
