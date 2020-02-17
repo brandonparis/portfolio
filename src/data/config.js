@@ -19,4 +19,5 @@ module.exports = {
     email: 'brandonprs@gmail.com',
     phone: '(408)761-2290',
   },
+  recaptcha_key: '6Leuv9kUAAAAACTBD6fI7uT0mxc9V6oIc2I9knzI',
 };
