@@ -8,9 +8,9 @@ import { Error, Center, InputField } from './styles';
 
 const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) => (
   <Form
-    name="portfolio-dev"
+    name="portfolio"
     method="post"
-    data-netlify="true"s
+    data-netlify="true"
     data-netlify-recaptcha="true"
     data-netlify-honeypot="bot-field"
   >
@@ -92,11 +92,11 @@ export default withFormik({
         Object.keys(data)
           .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
           .join('&');
-      await fetch('https://getform.io/f/b2eaef47-2f29-44d4-95db-813905fab04f', {
+      await fetch('/?no-cache=1', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
-          'form-name': 'portfolio-dev',
+          'form-name': 'portfolio',
           name,
           email,
           message,
